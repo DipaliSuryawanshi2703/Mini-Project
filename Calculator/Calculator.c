@@ -61,7 +61,7 @@ int main()
             printf("\n Enter 2nd Number: ");
             scanf("%d",&N2);
 
-            printf("\n Division : %d % %d = %d.", N1, N2, Division(N1, N2));
+            printf("\n Division : %d / %d = %d.", N1, N2, Division(N1, N2));
             getch();
             system("cls");
 
@@ -72,7 +72,7 @@ int main()
             printf("\n Enter 2nd Number: ");
             scanf("%d",&N2);
 
-            printf("\n Remender : %d / %d = %d.", N1, N2, Modulo(N1, N2));
+            printf("\n Remender : %d %% %d = %d.", N1, N2, Modulo(N1, N2));
             getch();
             system("cls");
 
@@ -106,3 +106,4 @@ int main()
     getch();
     return 0;
 }
+
